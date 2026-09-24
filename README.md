@@ -24,6 +24,12 @@ After deploying a RAG application on Dify, I rebuilt the retrieval loop without 
 
 A minimal tool-calling agent on a LangGraph StateGraph, wired to local tools (calculator, current time, mock lookup). Demonstrates bounded failure handling: a tool returns an error, the agent retries once under a fixed policy, then degrades to a graceful fallback answer instead of crashing the run.
 
+
+### dsh-auto-continue 鈥?self-healing turn loop for an LLM harness
+
+[shu0819-sjy/dsh-auto-continue](https://github.com/shu0819-sjy/dsh-auto-continue)
+
+A plugin pair for DeepSeek Harness (DSH) that resumes an agent turn automatically after recoverable failures: a hard-failure chain (timeout/network/5xx error whitelist, exponential backoff, at most 3 attempts) and a soft chain that re-drives the turn after an anti-repetition circuit break (at most 2). Ships with anti-race fences, human-veto reset, subagent skip, 41 tests across mock / real-kernel integration / static suites, and idempotent installers for Windows and Unix.
 ### byo-redis — systems fundamentals under the LLM stack
 
 [shu0819-sjy/byo-redis](https://github.com/shu0819-sjy/byo-redis)
