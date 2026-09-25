@@ -46,9 +46,13 @@ Small applied tools outside the core agent stack.
 
 #### [guangyu-photo-lab](https://github.com/shu0819-sjy/guangyu-photo-lab)
 
+[![Deploy GitHub Pages](https://github.com/shu0819-sjy/guangyu-photo-lab/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/shu0819-sjy/guangyu-photo-lab/actions/workflows/deploy-pages.yml)
+
 AI-assisted photo-retouching lab for batch polish workflows.
 
 #### [super-mario-audio](https://github.com/shu0819-sjy/super-mario-audio)
+
+[![CI](https://github.com/shu0819-sjy/super-mario-audio/actions/workflows/ci.yml/badge.svg)](https://github.com/shu0819-sjy/super-mario-audio/actions/workflows/ci.yml)
 
 Source Academy Arcade2D Super Mario build with an external audio pipeline and Raw URL assets.
 
@@ -58,12 +62,18 @@ From-scratch rebuilds that expose the layers usually hidden by frameworks.
 
 #### [byo-redis](https://github.com/shu0819-sjy/byo-redis)
 
+[![CI](https://github.com/shu0819-sjy/byo-redis/actions/workflows/ci.yml/badge.svg)](https://github.com/shu0819-sjy/byo-redis/actions/workflows/ci.yml)
+
 A Redis server in Python asyncio: RESP wire protocol, RDB snapshots, AOF persistence, and master/replica replication — systems fundamentals under the LLM stack.
 
 #### [mini-rag-from-scratch](https://github.com/shu0819-sjy/mini-rag-from-scratch)
 
+[![CI](https://github.com/shu0819-sjy/mini-rag-from-scratch/actions/workflows/ci.yml/badge.svg)](https://github.com/shu0819-sjy/mini-rag-from-scratch/actions/workflows/ci.yml)
+
 After deploying RAG on a managed stack, rebuilt the retrieval loop without a framework: fixed-size chunking with overlap, sentence-transformers embeddings, NumPy cosine top-k, and recall@1/3/5 over a built-in corpus.
 
 #### [langgraph-tool-agent](https://github.com/shu0819-sjy/langgraph-tool-agent)
+
+[![CI](https://github.com/shu0819-sjy/langgraph-tool-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/shu0819-sjy/langgraph-tool-agent/actions/workflows/ci.yml)
 
 A minimal tool-calling agent on a LangGraph StateGraph with bounded failure handling: one retry under a fixed policy, then a graceful fallback instead of crashing the run.
